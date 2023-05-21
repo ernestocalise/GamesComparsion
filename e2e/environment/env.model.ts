@@ -1,0 +1,152 @@
+
+export interface EnvironmentConfiguration {
+  E2E_URL: string;
+  E2E_RUNNING_AGAINST_PROD: boolean;
+
+  SET_COOKIE_USER: string;
+
+  SET_COOKIE_PASSWORD: string;
+
+  E2E_TIMEOUT_PUPPETEER: number;
+
+  E2E_HEADLESS: boolean;
+
+  E2E_GENERATE_REPORT: boolean;
+
+  TWILIO_SUB_ACCOUNT_SID: string;
+
+  TWILIO_AUTH_TOKEN: string;
+
+  E2E_SLOW_CONNECTION: boolean;
+
+  TWILIO_ACCOUNT_SID: string;
+
+  E2E_ARE_RUNNING_ON_JENKINS: boolean;
+
+  E2E_REPORT_ON_SLACK: boolean;
+
+  SLACK_CHANNEL: string;
+
+  SLACK_WEBHOOK: string;
+
+  E2E_USER_NAME: string;
+
+  SLACK_BOT_TOKEN: string;
+
+  HTTPS_PROXY: string;
+
+  BUILD_NUMBER: number;
+
+  JOB_NAME: string;
+
+  BUILD_URL: string;
+
+  E2E_PRICING_CONCILIATION: boolean;
+
+  E2E_COUNTRY_TESTING?: 'nl' | 'de' | 'it';
+
+  E2E_FOR_QUOTE_AND_BUY: boolean;
+
+  E2E_FOR_CONTACT_CENTER: boolean;
+
+  E2E_FOR_CONTACT_CENTER_LOGIN: boolean;
+
+  E2E_FOR_PORTAL: boolean;
+
+  E2E_FOR_CLAIMS: boolean;
+
+  E2E_FOR_HOME: boolean;
+
+  E2E_PRESERVE_SESSIONS: boolean;
+  E2E_CONTACT_CENTER_TECH_USER_CRT: string;
+  E2E_CONTACT_CENTER_TECH_USER_KEY: string;
+
+  E2E_CONTACT_CENTER_URL: string;
+
+  SAML_SSO_URL: string;
+
+  SAML_SSO_URL_TEST: string;
+
+  CHECK_OUTGOING_MAILS: boolean;
+
+  MAILDEV_URL: string;
+
+  CLAIMS_RPA_MAIL_RECIPIENT: string;
+
+  E2E_INPUT_PATH: string;
+
+  E2E_FOR_UW: boolean;
+
+  E2E_FOR_AF: boolean;
+
+  E2E_POLICY_DATA_ENDPOINT: string;
+
+  E2E_POLICY_DATA_ROW: string;
+
+  E2E_POLICY_DATA_STARTDATE: string;
+
+  E2E_POLICY_DATA_ENDDATE: string;
+
+  E2E_FOR_CREATE_POLICY: boolean;
+
+  E2E_POLICY_DATA_THREAD: string;
+
+  E2E_DOCUMENT_ENDPOINT: string;
+
+  E2E_POLICY_MAX_BANK_TRANSFER: string;
+
+  E2E_FOR_PRODUCT: boolean;
+
+  E2E_PRODUCT_DATA_ENDPOINT: string;
+
+  E2E_PRODUCT_DATA_ROW: string;
+
+  E2E_PERSONAL_AREA_ENDPOINT: string;
+
+  E2E_SEARCH_PERSON_BY_SSN_ENDPOINT: string;
+
+  E2E_DATA_PERSON_ENDPOINT: string;
+
+  E2E_BASIC_AUTH_USERNAME: string;
+
+  E2E_BASIC_AUTH_PSW: string;
+
+  E2E_DATA_EMAIL_ENDPOINT: string;
+
+  E2E_CHECK_EMAIL_ENDPOINT;
+
+  E2E_CHECK_RAP_ENDPOINT;
+
+  E2E_PULL_REQUEST_ID;
+
+  E2E_FOR_QB: boolean;
+
+  E2E_QB_DATA_ENDPOINT: string;
+
+  E2E_QB_NQ_DATA_ENDPOINT: string;
+
+  E2E_QB_DOCUMENT_SERVICE_ENDPOINT: string;
+
+  E2E_QB_BASIC_AUTH_USERNAME: string;
+
+  E2E_QB_BASIC_AUTH_PSW: string;
+
+  E2E_PRODUCT_DATA_STARTDATE: string;
+
+  E2E_PRODUCT_DATA_ENDDATE: string;
+
+  E2E_UW_DATA_ENDPOINT: string;
+
+  E2E_TEST_DATA_THREAD: string;
+
+  E2E_AF_DATA_ENDPOINT: string;
+
+  E2E_QB_SFQ_DATA_ENDPOINT: string;
+
+  E2E_QB_2D_DATA_ENDPOINT: string;
+
+  E2E_FOR_SAVE_QUOTATION: boolean;
+
+  E2E_QUOTATION_MODEL_DETAIL_SERVICE: string;
+
+}

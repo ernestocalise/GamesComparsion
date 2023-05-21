@@ -1,0 +1,20 @@
+# Project dependencies
+/node_modules/
+
+# Environment file
+.env
+# Not to upload the package lock
+package-lock.json
+# E2E reports from running the tests.
+reports.zip
+
+# This folder is used to store temporal files with useful
+# information like Contract Number or EVB (for now)
+/temp/
+
+# IDE Stuff
+/.idea
+*.iml
+
+
+/dist/

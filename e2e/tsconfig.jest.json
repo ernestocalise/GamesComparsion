@@ -1,0 +1,13 @@
+{
+  "//": "tsconfig file used to transform the .ts files to .js son jest its able to use them",
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "outDir": "dist",
+    "allowJs": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types/"
+    ]
+  }
+}
